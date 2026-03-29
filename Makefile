@@ -7,5 +7,5 @@ run:
 	@node lexico.js
 
 clean:
-	@rm -f saida.txt
+	@rm -f saida.txt lexico
 	@echo "Limpeza concluída."
