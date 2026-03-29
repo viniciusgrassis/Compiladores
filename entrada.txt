@@ -1,1 +1,9 @@
-abracad@bra
+if (teste >= 1){
+    sucesso;
+}
+"literal encerrado"
+//comentário 
+/* comentário */
+1v2
+@
+"literal não encerado
