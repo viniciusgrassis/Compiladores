@@ -1,0 +1,2 @@
+Código   | Token                                    | Classe                    | Linha | Coluna
+ 1       | abracad@bra                              | ERRO LÉXICO (Token Inválido) | 1     | 1
