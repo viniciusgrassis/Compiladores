@@ -6,4 +6,5 @@ if (teste >= 1){
 /* comentário */
 1v2
 @
+5.2d
 "literal não encerado

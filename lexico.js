@@ -51,10 +51,14 @@ function registrar(texto, classe, customCol = null) {
 
 function descobrirClasse(t) {
     if (reservadas.includes(t)) return "Palavra reservada";
+
+    const regexNumeral = /^-?[0-9]+(\.[0-9]+)?[fFLdD]?$/;
+    if (regexNumeral.test(t)) return "Numeral";
+
     if (operadores.includes(t)) return "Operador";
     if (separadores.includes(t)) return "Separador";
 
-    if (t.trim() !== "" && !isNaN(t)) return "Numeral";
+    //if (t.trim() !== "" && !isNaN(t)) return "Numeral";
 
     const regexIdentificador = /^[a-zA-Z_][a-zA-Z0-9_]*$/;
     if (regexIdentificador.test(t)) return "Identificador";
