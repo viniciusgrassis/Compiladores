@@ -1,11 +1,10 @@
-# Makefile - Analisador Léxico
+# Makefile - Compilador (Léxico + Sintático)
 
 all: run
 
 run:
-	@echo "Executando o Analisador Léxico..."
-	@node lexico.js
+	@echo "Iniciando a Compilação (Léxico2 + Sintático)..."
+	@node index.js
 
 clean:
-	@rm -f saida.txt
-	@echo "Limpeza concluída."
+	@echo "Nenhum arquivo temporário para limpar."

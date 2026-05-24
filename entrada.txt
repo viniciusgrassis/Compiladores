@@ -1,10 +1,13 @@
-if (teste >= 1){
-    sucesso;
+int x;
+int y;
+
+// Erro Sintático 1: Esqueceu o '=' na atribuição
+x 10;
+
+// Erro Sintático 2: Esqueceu de fechar o parêntese do IF
+if (x > 5 {
+    y = 2;
 }
-"literal encerrado"
-//comentário 
-/* comentário */
-1v2
-@
-5.2d
-"literal não encerado
+
+// Erro Sintático 3: Esqueceu o ';' no final da atribuição
+y = 20

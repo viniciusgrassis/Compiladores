@@ -135,7 +135,6 @@ try {
             continue; 
         }
 
-        // Um if específico para lidar com operadores duplos
         if (separadores.includes(leitor) || operadores.includes(leitor)) {
 
             if (tamanhoToken > 0) {
@@ -143,6 +142,9 @@ try {
                 token = "";
                 tamanhoToken = 0;
             }
+
+            // Um if específico para lidar com operadores duplos
+
 
             if (!esp_separadores.includes(leitor)) {
                 let proximo = arq[batedor + 1];
