@@ -34,9 +34,6 @@ function analisarSintatico(listaTokens) {
             coluna: token_atual.coluna
         });
         
-        if (listaErros.length > 10) {
-            throw new Error("Limite de erros sintáticos atingido. Interrompendo.");
-        }
     }
 
     // função de sicronismo, para parar de descartar a entrada ao encontrar um token de sincronismo
