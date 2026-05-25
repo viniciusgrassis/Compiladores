@@ -16,7 +16,7 @@ function analisarLexico(caminhoArquivo) {
     let listaTokens = [];
     let listaErros = [];
 
-    // Função original modificada apenas para alimentar a lista do sintático
+    // Função modificada para alimentar a lista do sintático
     function registrar(texto, classe, customCol = null) {
         if (texto === "" || esp_separadores.includes(texto)) return;
         
