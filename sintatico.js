@@ -34,7 +34,6 @@ function analisarSintatico(listaTokens) {
             coluna: token_atual.coluna
         });
         
-        // Caso sejam encontrados mais de 10, a análise é interrompida para evitar um loop infinito
         if (listaErros.length > 10) {
             throw new Error("Limite de erros sintáticos atingido. Interrompendo.");
         }
