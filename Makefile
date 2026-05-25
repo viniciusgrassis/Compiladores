@@ -3,7 +3,7 @@
 all: run
 
 run:
-	@echo "Iniciando a Compilação (Léxico2 + Sintático)..."
+	@echo "Iniciando a Compilação (Léxico + Sintático)..."
 	@node index.js
 
 clean:
