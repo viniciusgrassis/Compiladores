@@ -3,8 +3,8 @@ const fs = require('fs');
 function analisarLexico(caminhoArquivo) {
     const reservadas = ['if', 'bool', 'while', 'for', 'string', 'float', 'int'];
     const operadores = ['/', '+', '-', '*', '>', '<', '!', '&', '|', '='];
-    const separadores = ['{', '}', '(', ')', ';', ' ', '\n', '\t'];
-    const esp_separadores = [' ', '\n', '\t'];
+    const separadores = ['{', '}', '(', ')', ';', ' ', '\n', '\t', '\r'];
+    const esp_separadores = [' ', '\n', '\t', '\r'];
 
     let token = "";
     let linha = 1;
