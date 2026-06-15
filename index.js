@@ -1,6 +1,6 @@
 // index.js
-const { analisarLexico } = require('./lexico2');
-const { analisarSintatico } = require('./sintatico');
+const { analisarLexico } = require('./lexico3');
+const { analisarSintatico } = require('./sintatico3');
 
 console.log("Iniciando Compilação...\n");
 

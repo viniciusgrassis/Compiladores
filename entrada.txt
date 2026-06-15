@@ -1,10 +1,52 @@
-int x;
-int y;
+int a;
+a = 10;
+float b = 2.5;
+bool flag = true;
+string nome = "compiladores";
 
-x 10;
+a = a + 1;
+b = b - 1.5;
+b = a * 2;
+b = a / 2;
 
-if (x > 5 {
-    y = 2;
+bool comp1;
+comp1 = a > 5;
+bool comp2;
+comp2 = b <= 10.0;
+bool comp3;
+comp3 = (a == 10) || (comp1 && comp2);
+
+if (comp3) {
+    int x = a * 2;
+    if (x >= 20) {
+        string msg;
+        msg = nome + " ok";
+    } else {
+        string msg;
+        msg = "nao ok";
+    }
 }
 
-y = 20
+int i = 0;
+while (i < 5) {
+    int dobro;
+    dobro = i * 2;
+    i = i + 1;
+}
+
+{
+    int a;
+    a = 999;
+    bool flag;
+    flag = false;
+}
+
+if (1) {
+    int y;
+    y = 1;
+}
+
+while (0) {
+    int z;
+    z = 1;
+}

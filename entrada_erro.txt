@@ -1,0 +1,27 @@
+int x
+x = 5;
+
+int x;
+
+y = 10;
+
+string s;
+s = 123;
+
+int n;
+bool b;
+b = n && true;
+
+if (s) {
+    int a;
+    a = 1;
+}
+
+if (x > 0 {
+    int c;
+    c = 2;
+}
+
+while (x < 10) {
+    int d;
+    d = d + 1;
