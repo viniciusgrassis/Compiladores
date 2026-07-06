@@ -1,52 +1,5 @@
-int a;
-a = 10;
-float b = 2.5;
-bool flag = true;
-string nome = "compiladores";
+int x = 2;
+int y = 10;
+int z;
 
-a = a + 1;
-b = b - 1.5;
-b = a * 2;
-b = a / 2;
-
-bool comp1;
-comp1 = a > 5;
-bool comp2;
-comp2 = b <= 10.0;
-bool comp3;
-comp3 = (a == 10) || (comp1 && comp2);
-
-if (comp3) {
-    int x = a * 2;
-    if (x >= 20) {
-        string msg;
-        msg = nome + " ok";
-    } else {
-        string msg;
-        msg = "nao ok";
-    }
-}
-
-int i = 0;
-while (i < 5) {
-    int dobro;
-    dobro = i * 2;
-    i = i + 1;
-}
-
-{
-    int a;
-    a = 999;
-    bool flag;
-    flag = false;
-}
-
-if (1) {
-    int y;
-    y = 1;
-}
-
-while (0) {
-    int z;
-    z = 1;
-}
+z = x + (y - 3);
