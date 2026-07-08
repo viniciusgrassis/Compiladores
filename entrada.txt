@@ -1,5 +1,15 @@
-int x = 2;
+float x = 2;
 int y = 10;
-int z;
+float z;
+int a = 1;
+int b = 2;
 
 z = x + (y - 3);
+
+if(a > b){
+    a = b;
+}else{
+    b = a;
+}
+
+while(a < 5){ a = a + b; }
